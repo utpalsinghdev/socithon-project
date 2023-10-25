@@ -13,7 +13,7 @@ const Navbar = async () => {
   return (
     <>
       {user?.user ? (
-        <div className="w-full px-4 py-2 shadow-md flex items-center justify-between">
+        <div className="fixed bg-white w-full px-4 py-2 shadow-md flex items-center justify-between">
           <span className="flex items-center justify-start gap-2">
             {" "}
             <Image

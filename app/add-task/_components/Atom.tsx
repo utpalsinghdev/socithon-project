@@ -163,17 +163,19 @@ const Atom = (props: Props) => {
   return (
     <>
       {renderAddModal()}
-      <Table
-        btnText={"Add Task"}
-        btnfunc={() => {
-          setState((prev) => !prev);
-        }}
-        title="Tasks"
-        subtitle={"All Tasks that are assosiate with us."}
-        dataName={"Tasks"}
-        data={props.data}
-        columns={columns({ markComplete })}
-      />
+      <div style={{ paddingTop: "10%" }}>
+        <Table
+          btnText={"Add Task"}
+          btnfunc={() => {
+            setState((prev) => !prev);
+          }}
+          title="Tasks"
+          subtitle={"All Tasks that are assosiate with us."}
+          dataName={"Tasks"}
+          data={props.data}
+          columns={columns({ markComplete })}
+        />
+      </div>
     </>
   );
 };

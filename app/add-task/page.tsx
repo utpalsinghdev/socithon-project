@@ -17,6 +17,8 @@ const page = async () => {
     if (user.user.role !== ROLE.ADMIN) {
       redirect("/");
     }
+  } else if (!user?.user) {
+    redirect("/login");
   }
   const _tasks = await prisma.task.findMany({});
   async function addTask(data: NewTask) {

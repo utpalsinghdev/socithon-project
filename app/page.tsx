@@ -40,7 +40,7 @@ export default async function Home() {
   }
   return (
     <main className="flex font-mono max-w-screen-xl px-4 py-8 items-center flex-col">
-      <h2 className="text-xl font-semibold w-full">Hello, Eco-warrior</h2>
+      <h2 className="text-xl font-semibold w-full mt-8">Hello, Eco-warrior</h2>
       <div className="w-full mt-4 flex flex-col gap-y-2">
         <div className="w-full flex gap-4">
           <span className="w-[55%]  flex border border-blue-400 items-center justify-center bg-indigo-100 rounded-sm  text-blue-900">

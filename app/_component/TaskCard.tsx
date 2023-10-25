@@ -22,9 +22,9 @@ const TaskCard = (props: any) => {
           handleCardClick();
         }
       }}
-      className="cursor-pointer border border-blue-900/10 px-1 py-2 rounded-lg flex flex-row items-center justify-between"
+      className="cursor-pointer border border-blue-900/10  rounded-lg h-28 flex flex-row items-center justify-between mb-3"
     >
-      <div className="flex flex-col items-start justify-between">
+      <div className="flex flex-col items-start justify-between gap-2 px-1 py-2">
         {" "}
         <div>{props.name}</div>
         <div>{props.location}</div>
@@ -50,7 +50,7 @@ const TaskCard = (props: any) => {
         alt="task-img"
         width={1920}
         height={1080}
-        className="w-28"
+        className="w-28 h-full rounded-r-md"
       />
     </div>
   );
