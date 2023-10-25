@@ -3,6 +3,7 @@ import React from "react";
 import { signIn } from "next-auth/react";
 const page = () => {
   return (
+    //starts
     <div className="w-full flex items-center justify-center h-screen">
       <button
         onClick={() => signIn("google")}
