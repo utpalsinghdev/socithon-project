@@ -12,7 +12,7 @@ const page = () => {
         Continue with Google
       </button>
     </div>
-  );
+  );//end
 };
 
 export default page;
