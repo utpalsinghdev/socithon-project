@@ -9,8 +9,8 @@ interface Props {}
 const Logout = () => {
   return (
     <LuLogOut
-      onClick={() => {
-        signOut();
+      onClick={async () => {
+        await signOut();
         redirect("/login");
       }}
       className="text-xl cursor-pointer"
