@@ -52,7 +52,7 @@ const page = async () => {
       return _newTask;
     } catch (error) {
       return error;
-    }
+    }//end 
   }
   console.log(_tasks);
   return <Atom data={_tasks} addTask={addTask} markComplete={markComplete} />;
