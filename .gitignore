@@ -14,7 +14,8 @@
 
 # production
 /build
-
+Hardware Design (Schematics Design only using ISE 14.7 and below) of 
+Algebraic Equations (example- a^2 + b^2) and implementation on SSD
 # misc
 .DS_Store
 *.pem
